@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roman Number Converter</title>
+    <link rel="stylesheet" href="RMC.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="start">
+        <h1>Roman Number Converter</h1>
+        <div class="inputClass">
+            <label for="romanNum">Enter a Number</label><br>
+            <input type="number" placeholder="Enter Roman Number" id="input"><br>
+            <div class="buttonClass">
+                <button type="button" id="convertButton" onclick="convertToRoman()">Convert</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="outputClass" id="output"></div>
+        <div class="errorContainer" id="errorMsg"></div>
+    </div>
+</div>
+<script src="RMC.js"></script>
+</body>
+</html>
